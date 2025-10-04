@@ -311,6 +311,7 @@ body {
 }
 .hero__name {
   line-height: 0.8;
+  text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   color: #b70155;
   margin-bottom: 1.25rem;
 }
@@ -523,7 +524,7 @@ body {
 .benefits__name {
   line-height: 0.8;
   color: #ff849b;
-  text-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 .benefits__img {
   grid-row: span 2;
@@ -1054,6 +1055,7 @@ body {
     font-size: 5.625rem;
   }
   .contacts__mob-text {
+    display: block;
     font-weight: 600;
     font-size: 1rem;
     line-height: 225%;
